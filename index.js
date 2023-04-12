@@ -33,7 +33,7 @@ const renderTasks = (tasks) => {
     trash.dataset.index = index;
     trashDrag.setAttribute('class', 'trash-drag');
     const divItem = document.createElement('div');
-    divItem.setAttribute('class', 'div-item');
+    divItem.setAttribute('class', 'div-item df');
     li.appendChild(checkbox);
     li.appendChild(input);
     trashDrag.appendChild(trash);
